@@ -99,3 +99,5 @@
 //     $half = $minute <= 45 ? 'FIRST HALF' : 'SECOND HALF';
 //     echo "[$half] $minute: $event<br>";
 // }
+const name ='Le Phuc Lam';
+console.log(name)

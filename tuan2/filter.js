@@ -33,3 +33,4 @@ var courses = [
 var filterCourses = courses.filter(function(course) {
   return course.coin > 300;
 });
+console.log(filterCourses); // Courses with coin greater than 300

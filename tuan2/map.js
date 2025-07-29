@@ -86,3 +86,4 @@ function courseHandler(course) {
 
 var newCourses = courses.map(courseHandler);
 
+

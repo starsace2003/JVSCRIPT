@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced DOM and Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <button id="scroll-about">Giới thiệu</button>
+    <button id="scroll-users">Người dùng</button>
+  </nav>
+
+  <section id="about">
+    <h2>Giới thiệu</h2>
+    <p>Đây là phần giới thiệu trang web của bạn.</p>
+  </section>
+
+  <section id="users">
+    <h2>Danh sách người dùng</h2>
+    <ul id="user-list">
+      <li data-name="Alice">👩 Lam</li>
+      <li data-name="Bob">👨 Hùng</li>
+      <li data-name="Charlie">🧔 Chí</li>
+    </ul>
+  </section>
+
+  <div id="user-detail"></div>
+
+  <!-- ✅ Gọi script cuối trang -->
+  <script src="main.js"></script>
+</body>
+</html>
